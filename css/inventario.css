@@ -1,0 +1,138 @@
+
+nav {
+
+    background-color: #0b4f71;
+    padding: 15px 30px;
+
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav img {
+
+    width: 100px;
+}
+
+nav a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+nav a:hover {
+
+    color: #8ed8ff;
+
+}
+
+.pagina-inventario {
+            padding: 60px 70px;
+            background-color: #eaf6fb;
+        }
+
+        .encabezado-inventario {
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto 40px;
+        }
+
+        .encabezado-inventario h1 {
+            font-size: 42px;
+            color: #0b4f71;
+        }
+
+        .encabezado-inventario p {
+            font-size: 19px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .contenedor-inventario {
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .contenedor-inventario h2 {
+            text-align: center;
+            font-size: 32px;
+            color: #0b4f71;
+            margin-bottom: 30px;
+        }
+
+        .funciones-inventario {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+
+        .tarjeta-inventario {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .tarjeta-inventario h3 {
+            font-size: 23px;
+            color: #0b4f71;
+        }
+
+        .tarjeta-inventario p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .beneficios-inventario {
+            background-color: white;
+            margin-top: 40px;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        .beneficios-inventario h2 {
+            text-align: left;
+        }
+
+        .beneficios-inventario ul {
+            line-height: 2;
+            font-size: 17px;
+        }
+
+        .boton-volver {
+            display: block;
+            width: fit-content;
+            margin: 40px auto 0;
+            padding: 12px 25px;
+            background-color: #0b719e;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .boton-volver:hover {
+            background-color: #083f59;
+        }
+
+        @media (max-width: 700px) {
+
+            .pagina-inventario {
+                padding: 40px 20px;
+            }
+
+            .funciones-inventario {
+                grid-template-columns: 1fr;
+            }
+
+        }

@@ -1,0 +1,244 @@
+body {
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+
+nav {
+
+    background-color: #0b4f71;
+
+    padding: 15px 30px;
+
+}
+
+nav ul {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    list-style: none;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+nav img {
+
+    width: 100px;
+
+}
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 17px;
+
+}
+
+nav a:hover {
+
+    color: #8ed8ff;
+
+}
+
+.seccion1 {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 70px;
+
+    background-color: #eaf6fb;
+
+}
+
+.texto1 {
+
+    width: 50%;
+
+}
+
+.texto1 h1 {
+
+    font-size: 50px;
+    color: #0b4f71;
+
+}
+
+.texto1 p {
+
+    font-size: 19px;
+    line-height: 1.6;
+
+}
+
+.imagen1 {
+
+    width: 45%;
+
+}
+
+.imagen1 img {
+
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.seccion2 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+    background-color: white;
+
+}
+
+.imagen2 {
+
+    width: 45%;
+
+}
+
+.imagen2 img {
+
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.texto2 {
+
+    width: 50%;
+
+}
+
+.texto2 h2 {
+
+    font-size: 40px;
+    color: #0b4f71;
+
+}
+
+.texto2 p {
+
+    font-size: 18px;
+    line-height: 1.6;
+
+}
+
+.seccion3 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+    background-color: #eaf6fb;
+
+}
+
+.texto3 {
+
+    width: 50%;
+
+}
+
+.texto3 h2 {
+
+    font-size: 40px;
+    color: #0b4f71;
+
+}
+
+.texto3 p {
+
+    font-size: 18px;
+    line-height: 1.6;
+
+}
+
+.imagen3 {
+
+    width: 45%;
+
+}
+
+.imagen3 img {
+
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.seccion4 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+    background-color: white;
+
+}
+
+.imagen4 {
+
+    width: 45%;
+
+}
+
+.imagen4 img {
+
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.texto4 {
+
+    width: 50%;
+
+}
+
+.texto4 h2 {
+
+    font-size: 40px;
+
+    color: #0b4f71;
+
+}
+
+.texto4 p {
+
+    font-size: 18px;
+    line-height: 1.6;
+
+}
+
+footer {
+
+    padding: 30px;
+
+    text-align: center;
+
+    background-color: #062f43;
+
+    color: white;
+
+}
+
+

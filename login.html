@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Iniciar sesión | ERP Andino Perú</title>
+<link rel="stylesheet" href="css/login.css">
+</head>
+
+<script type="module" src="js/auth/login.js"></script>
+
+<body>
+<main>
+    
+
+    <h1>Acceso a ERP Andino Perú</h1>
+
+
+    <section>
+
+        <h2>Crear cuenta</h2>
+
+        <form id="form-registro">
+
+            <label for="nombre">
+                Nombre
+            </label>
+
+            <input
+                type="text"
+                id="nombre"
+                required
+            >
+
+
+            <label for="correo-registro">
+                Correo
+            </label>
+
+            <input
+                type="email"
+                id="correo-registro"
+                required
+            >
+
+
+            <label for="contrasena-registro">
+                Contraseña
+            </label>
+
+            <input
+                type="password"
+                id="contrasena-registro"
+                required
+            >
+
+
+            <button type="submit">
+                Crear cuenta
+            </button>
+
+        </form>
+
+        <p id="mensaje-registro"></p>
+
+    </section>
+
+
+    <section>
+
+        <h2>Iniciar sesión</h2>
+
+        <form id="form-login">
+
+            <label for="correo-login">
+                Correo
+            </label>
+
+            <input
+                type="email"
+                id="correo-login"
+                required
+            >
+
+
+            <label for="contrasena-login">
+                Contraseña
+            </label>
+
+            <input
+                type="password"
+                id="contrasena-login"
+                required
+            >
+
+
+            <button type="submit">
+                Iniciar sesión
+            </button>
+
+        </form>
+
+        <p id="mensaje-login"></p>
+
+    </section>
+
+</main>
+
+</body>
+
+</html>

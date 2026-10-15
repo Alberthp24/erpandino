@@ -1,0 +1,117 @@
+body { 
+    margin: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eaf6fb; 
+    color: #333; 
+}
+nav { 
+    background-color: #0b4f71; 
+    padding: 15px 30px; }
+
+nav ul { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; }
+
+nav a { 
+    color: white; 
+    text-decoration: none; 
+    font-size: 17px; }
+
+nav a:hover { 
+    color: #8ed8ff; }
+
+.contenedor { 
+    max-width: 600px; 
+    margin: 40px auto; 
+    padding: 30px; 
+    background: white; 
+    border-radius: 10px; 
+    border: 1px solid #ddd; }
+
+h1 { 
+    color: #0b4f71; 
+    text-align: center; }
+
+#codigo-registro { 
+    text-align: center; 
+    color: #555; }
+
+form label { 
+    display: block; 
+    margin: 18px 0 6px; 
+    font-weight: bold; 
+    color: #0b4f71; }
+
+form input, form select { 
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 6px; 
+    font-size: 16px; 
+    box-sizing: border-box; 
+    background: white; }
+
+form input:disabled, form select:disabled { 
+    background: #f0f0f0; 
+    color: #777; }
+
+form button { 
+    margin-top: 25px; 
+    padding: 12px 25px;
+     background: #0b719e; 
+     color: white; 
+     border: none; 
+     border-radius: 8px; 
+     font-size: 16px; 
+     cursor: pointer; }
+
+form button:hover { 
+    background: #083f59; }
+
+.enlace-volver { 
+    margin-left: 15px; 
+    color: #0b4f71; }
+
+#mensaje-actualizar { 
+    text-align: center; 
+    font-weight: bold; 
+    color: #0b4f71; }
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px 15px;
+    margin: 20px 0 0;
+}
+
+legend {
+    font-weight: bold;
+    color: #0b4f71;
+    padding: 0 6px;
+}
+
+form fieldset label.opcion {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0;
+    font-weight: normal;
+    color: #333;
+}
+
+form fieldset input[type="checkbox"] {
+    width: auto;
+}
+
+.monto {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0b4f71;
+    margin-top: 20px;
+}
+
+

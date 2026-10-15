@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitar demo | ERP Andino Perú</title>
+    <link rel="stylesheet" href="css/registro.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="registro.html">Solicitar demo</a></li>
+            <li><a href="consulta.html">Mis registros</a></li>
+            <li><a href="#" id="btn-salir">Cerrar sesión</a></li>
+        </ul>
+    </nav>
+
+    <section class="seccion2">
+        <h2>Solicita una demo</h2>
+        <p>
+            Conoce ERP Andino Perú antes de contratarlo.
+            Completa el formulario y solicita una demostración del sistema.
+        </p>
+
+        <form id="form-demo">
+            <label for="empresa">Nombre de la empresa</label>
+            <input type="text" id="empresa" name="empresa"
+                   placeholder="Ingresa el nombre de tu empresa" required>
+
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo"
+                   placeholder="Ingresa tu correo" required>
+
+            <label for="tamano">Tamaño de la empresa</label>
+            <select id="tamano" name="tamano" required>
+                <option value="">Selecciona una opción</option>
+                <option value="pequena">Pequeña empresa</option>
+                <option value="mediana">Mediana empresa</option>
+                <option value="grande">Gran empresa</option>
+            </select>
+
+            <fieldset>
+                <legend>Módulos a contratar (S/ 350 c/u)</legend>
+                <label class="opcion">
+                    <input type="checkbox" name="modulo_ventas"> Ventas
+                </label>
+                <label class="opcion">
+                    <input type="checkbox" name="modulo_planilla"> Planilla
+                </label>
+                <label class="opcion">
+                    <input type="checkbox" name="modulo_almacen"> Almacén
+                </label>
+            </fieldset>
+
+            <label for="sucursales">Sucursales adicionales (S/ 150 c/u)</label>
+            <input type="number" id="sucursales" name="sucursales_adicionales"
+                   min="0" step="1" value="0" required>
+
+            <p class="monto">Cuota de instalación:
+                <output id="monto-estimado" aria-live="polite">S/ 0.00</output>
+            </p>
+
+            <button type="submit">Solicitar demo</button>
+        </form>
+
+        <p id="mensaje-demo" role="status"></p>
+    </section>
+
+    <script type="module" src="js/registro/registro.js"></script>
+</body>
+</html>

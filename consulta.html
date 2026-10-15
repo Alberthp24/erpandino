@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis registros | ERP Andino Perú</title>
+    <link rel="stylesheet" href="css/consulta.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="registro.html">Solicitar demo</a></li>
+            <li><a href="consulta.html">Mis registros</a></li>
+            <li><a href="#" id="btn-salir">Cerrar sesión</a></li>
+        </ul>
+    </nav>
+    <main class="contenedor">
+        <h1>Mis solicitudes de demo</h1>
+        <p id="mensaje-consulta" role="status"></p>
+
+        <div class="tabla-contenedor">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Empresa</th>
+                        <th>Tamaño</th>
+                        <th>Correo</th>
+                        <th>Estado</th>
+                        <th>Monto</th>
+                        <th>Pago</th>
+                        <th>Acción</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-cuerpo"></tbody>
+            </table>
+        </div>
+    </main>
+
+    <script type="module" src="js/consulta/consulta.js"></script>
+</body>
+</html>
